@@ -18,13 +18,13 @@ setuptools.setup(
         'scipy',
         'matplotlib',
         'scikit-learn',
-        'requests'
-    ],
-    packages=['xquant',
-              'xquant.engine',
-              'xquant.finance',
-              'xquant.utils',
-              'xquant.visual'],
+        'requests'],
+    packages=[
+        'xquant',
+        'xquant.engine',
+        'xquant.finance',
+        'xquant.utils',
+        'xquant.visual'],
     long_description='Event-driven backtest frame for Chinese equity/futures market.',
     classifiers=[
         'Development Status :: 3 - Alpha',
